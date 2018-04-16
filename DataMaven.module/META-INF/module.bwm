@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_fPWr0EFZEeiFV8m1HnqQaQ" targetNamespace="http://tns.tibco.com/bw/composite/DataMaven.module" name="DataMaven.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_fvzGcEFZEeiFV8m1HnqQaQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_fv9egEFZEeiFV8m1HnqQaQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_fwBv8EFZEeiFV8m1HnqQaQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_fwFaUEFZEeiFV8m1HnqQaQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_fwJEsEFZEeiFV8m1HnqQaQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_fwMvEEFZEeiFV8m1HnqQaQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_fwQZcEFZEeiFV8m1HnqQaQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_fg5u0EFZEeiFV8m1HnqQaQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_fg688EFZEeiFV8m1HnqQaQ" processName="datamaven.module.Process"/>
+  </sca:component>
+</sca:composite>
